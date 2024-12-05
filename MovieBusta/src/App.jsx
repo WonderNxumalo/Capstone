@@ -5,7 +5,11 @@ function App() {
 
   return (
     <>
-      <h1 className='text-red-500'>Hello World</h1>
+    <div className='container bg-white'>
+    <h1 className='text-blue-500 '>Hello World</h1>
+    <p className='text-blue-700'>The MovieBusta App will be built here.</p>
+    </div>
+      
     </>
   )
 }
