@@ -1,17 +1,19 @@
 import './App.css'
+import Footer from './components/Footer';
+import Home from './components/Home'
+import MovieList from './components/MovieList';
+
 
 function App() {
 
 
   return (
     <>
-    <div className='container bg-white'>
-    <h1 className='text-blue-500 '>Hello World</h1>
-    <p className='text-blue-700'>The MovieBusta App will be built here.</p>
-    </div>
-      
+      <Home />
+      <MovieList />
+      <Footer />
     </>
   )
-}
+};
 
-export default App
+export default App;
