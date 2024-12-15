@@ -1,18 +1,20 @@
 import './App.css'
-import Footer from './components/Footer';
-import Home from './components/Home'
-import MovieList from './components/MovieList';
+import Main from './components/Main';
+import Footer from './components/Footer'
+import Head from './components/Head';
 
 
 function App() {
 
-
   return (
     <>
-      <Home />
-      <MovieList />
-      <Footer />
+    <Head />
+    <Main />
+    <Footer />
     </>
+   
+   
+  
   )
 };
 
