@@ -3,7 +3,7 @@
 function Footer () {
     return (
         <div className="container bg-gradient-to-br from-blue-900 to-blue-300 text-lg p-2">
-            <p className="text-white text-base mb-1"> &copy; Wonder Nxumalo_ALX  2024</p>
+            <p className="text-white text-lg xl:text-xl mb-1"> &copy; Wonder Nxumalo_ALX  2024</p>
             <div className="text-white ">
                 <ul className="flex flex-row align-center justify-evenly">
                     <a className="hover:text-blue-300" href="https://github.com/WonderNxumalo" target="_blank">

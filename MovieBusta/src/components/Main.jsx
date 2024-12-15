@@ -23,15 +23,15 @@ function Main() {
 
   return (
     <div className="App">
-      <form className='m-2' onSubmit={handleSubmit}>
+      <form className='p-2 bg-blue-400' onSubmit={handleSubmit}>
         <input
           type="text"
           placeholder="Search for a movie"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          className='border border-blue-500 rounded-sm mr-1 p-0.5'
+          className='rounded-sm mr-1 p-0.5 text-xl xl:text-2xl'
         />
-        <button className='bg-blue-500 rounded-md text-white px-1 hover:bg-blue-300' type="submit">Search</button>
+        <button className='bg-blue-500 rounded-md text-white px-1 hover:bg-blue-300 text-xl xl:text-2xl' type="submit">Search</button>
       </form>
 
       <div className="movie-list">
